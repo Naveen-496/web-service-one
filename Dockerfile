@@ -1,5 +1,5 @@
 # Use the official Oracle JDK 21 as a base image
-FROM oracle/jdk:21
+FROM adoptopenjdk:17-jre-hotspot
 
 # Set the working directory inside the container
 WORKDIR /app
