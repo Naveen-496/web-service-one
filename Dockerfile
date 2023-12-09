@@ -1,5 +1,5 @@
 # Use the official Oracle JDK 21 as a base image
-FROM store/oracle/jdk:21
+FROM oracle/jdk:21
 
 # Set the working directory inside the container
 WORKDIR /app
