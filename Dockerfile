@@ -3,6 +3,7 @@ FROM openjdk:21
 # Set the working directory inside the container
 WORKDIR /app
 
+RUN mvn clean package
 # Copy the JAR file into the container
 COPY target/web-service-one-0.0.1-SNAPSHOT.jar /app/app.jar
 
