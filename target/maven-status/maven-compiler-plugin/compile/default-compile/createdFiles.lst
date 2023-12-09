@@ -1,2 +1,3 @@
 dev\reddy\webserviceone\home\HomeController.class
 dev\reddy\webserviceone\WebServiceOneApplication.class
+dev\reddy\webserviceone\domain\Post.class
